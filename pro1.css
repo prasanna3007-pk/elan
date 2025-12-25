@@ -1,0 +1,59 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Layout Container */
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+/* Blog Card (Box Model Applied) */
+.blog-card {
+    background-color: white;
+    padding: 20px;       /* Box Model */
+    margin-right: 20px;  /* Box Model */
+    border: 2px solid #ccc; /* Box Model */
+    width: 70%;
+}
+
+.blog-card h2 {
+    margin-top: 0;
+}
+
+.date {
+    color: gray;
+    font-size: 14px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: white;
+    padding: 20px;        /* Box Model */
+    border: 2px solid #ccc; /* Box Model */
+    width: 30%;
+}
+
+.sidebar ul {
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
